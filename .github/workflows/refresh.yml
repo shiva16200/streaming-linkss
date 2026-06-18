@@ -5,12 +5,20 @@ on:
   schedule:
     - cron: '0 */12 * * *'
 
+# grant the job write access to repository contents (so GITHUB_TOKEN can push)
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@main
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true     # ensure the checkout action configures the runner git to use GITHUB_TOKEN
+
       - run: python3 generate_link.py
+
       - run: |
           git config user.name "bot"
           git config user.email "bot@bot.com"

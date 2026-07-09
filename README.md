@@ -1,7 +1,7 @@
 # STREAMING LINK
 
 LINK:
-http://202.166.192.207/ffplay/wc-Himalaya3/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTc4MzU2NDcwNiZ2YWxpZF9taW51dGVzPTE0NDAmaWQ9MjAwJmhhc2hfdmFsdWU9MDI4MjM0MTI5Mjc2YmVhMzU2OWEwMDEyNTgyM2EzODE=
+http://202.166.192.207/ffplay/wc-Himalaya3/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9MTc4MzYwODY1MyZ2YWxpZF9taW51dGVzPTE0NDAmaWQ9MjAwJmhhc2hfdmFsdWU9NTA0ZTIzOTQwMjQ4MjRjMmEyZTA5ODJiM2I0OWY0ODE=
 
-Generated: 2026-07-09 02:38:26
+Generated: 2026-07-09 14:50:53
 Expires: 24 hours
